@@ -507,20 +507,11 @@ img {
 @media (max-width: 460px) {
 
     .main-title {
-        font-size: 60px;
         margin-bottom: 36px;
     }
 
     .main-text {
         margin-bottom: 36px;
-    }
-
-}
-
-@media (max-width: 400px) {
-
-    .main-title {
-        font-size: 54px;
     }
 
 }
