@@ -506,21 +506,11 @@ a {
 @media (max-width: 460px) {
 
     .main-title {
-        font-size: 60px;
         margin-bottom: 36px;
     }
 
     .main-text {
-        font-size: 12px;
         margin-bottom: 36px;
-    }
-
-}
-
-@media (max-width: 400px) {
-
-    .main-title {
-        font-size: 54px;
     }
 
 }
