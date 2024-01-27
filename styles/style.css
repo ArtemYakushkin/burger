@@ -29,11 +29,6 @@ a {
     cursor: pointer;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-}
-
 .container {
     max-width: 1240px;
     padding: 0 20px;
@@ -71,9 +66,7 @@ img {
 }
 
 .main {
-    overflow: hidden;
-    background-image: url("../images/main_bg.png");
-    background-position: top center;
+    background: url("../images/main-bg-left.png") top left no-repeat, url("../images/main-bg-right.png") top right no-repeat;
 }
 
 .header {
@@ -265,8 +258,8 @@ img {
 
 .main-image {
     position: absolute;
-    top: -123px;
-    left: calc(100% - 991px);
+    left: calc(100% - 875px);
+    top: -36px;
 }
 
 .why {
@@ -456,6 +449,8 @@ img {
     line-height: 20px;
 }
 
+
+
 @media (max-width: 1170px) {
 
     .main-image {
@@ -466,6 +461,10 @@ img {
 
 
 @media (max-width: 1000px) {
+
+    .main {
+        background: transparent;
+    }
 
     .menu {
         display: none;
