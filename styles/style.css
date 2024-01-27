@@ -506,6 +506,7 @@ a {
 @media (max-width: 460px) {
 
     .main-title {
+        font-size: 54px;
         margin-bottom: 36px;
     }
 
