@@ -1,0 +1,131 @@
+@media (min-width: 1000px) {
+
+    .burger {
+        display: none;
+    }
+
+}
+
+@media (min-width: 580px) {
+
+    .logo-mini {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1170px) {
+
+    .main-image {
+        opacity: 0.7;
+    }
+
+}
+
+@media (max-width: 1150px) {
+
+    .order-image {
+        opacity: 0.5;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .main {
+        background: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .why-items {
+        gap: 40px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .main-content {
+        padding-top: 53px;
+        padding-bottom: 100px;
+    }
+
+    .main-image {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .main-title {
+        font-size: 90px;
+        margin-bottom: 56px;
+    }
+
+    .why {
+        background: none;
+        padding-bottom: 100px;
+    }
+
+    .common-title {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .products {
+        padding-bottom: 100px;
+    }
+
+    .order {
+        padding-bottom: 100px;
+    }
+
+    .order-image {
+        display: none;
+    }
+
+}
+
+@media (max-width: 580px) {
+
+    .logo {
+        display: none;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .main-title {
+        font-size: 72px;
+    }
+
+    .order-form-text {
+        font-size: 18px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .main-title {
+        font-size: 52px;
+    }
+
+    .order-title {
+        font-size: 32px;
+    }
+
+}
